@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            HOME PAGE
+        </title>
+        <style>
+            
+
+            .img1{
+                background-image: url("col.jpg");
+                background-size:1350px;
+            }
+            .a1{
+                color:rgb(172, 38, 38);
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 1cm;
+                margin-left: 85px;
+                font-weight: bold;
+                margin-bottom: 25px;
+                background-color: #87CEEB;
+                padding-left: 10px;
+                padding-right: 10px;
+                border-radius: 25px;
+                
+            }
+            .a2{
+                color:rgb(172, 38, 38);
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 0.8cm;
+                margin-top: 25px;
+                margin-left: 400px;
+                margin-top: 25px;
+                font-weight: bolder;
+                background-color: rgba(245, 241, 16, 0.959);
+                border-radius: 15px;
+                padding-left: 8px;
+                padding-right: 8px;
+                
+            }
+            .login{
+              color: white;
+              background-color: rgb(172, 38, 38);
+              padding-left: 15px;
+              padding-top: 10px;
+              padding-right: 15px;
+              padding-bottom: 10px;
+              font-size: 15px;
+              border-radius: 12px;
+              font-weight: bold;
+              cursor: pointer;
+            }
+            .login:hover{
+                background-color: rgb(45, 31, 109);
+                transition: 1s;
+            }
+            .login span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.login span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.login:hover span {
+  padding-right: 25px;
+}
+            .cancel{
+              color: white;
+              background-color: rgb(172, 38, 38);
+              padding-left: 15px;
+              padding-top: 10px;
+              padding-right: 15px;
+              padding-bottom: 10px;
+              font-size: 15px;
+              border-radius: 12px;
+              font-weight: bold;
+              cursor: pointer;
+              margin-left: 50px;
+            }
+            .cancel:hover{
+                background-color: rgb(45, 31, 109);
+                transition: 1s;
+            }
+        </style>
+    </head>
+    
+    <body class="img1">
+        <span class="a1">
+            MAHARASHTRA STATE BOARD MUMBAI UNIVERSITY
+        </span><br><br>
+    
+        <span class="a2">
+            KMC COLLEGE KHOPOLI
+        </span>
+        <center> &nbsp;<h1> Student Login Form </h1> </center>   
+       <center> <form class="f1">  
+            <div class="container">   
+                <label>Username : </label>   
+                <input type="text" placeholder="Enter Username" name="username" required> <br> <br>
+                &nbsp;<label>Password : </label>   
+                <input type="password" placeholder="Enter Password" name="password" required> <br><br> 
+                <button type="submit" class="login"><span>Login</span></button>   
+                  
+                <button type="button" class="cancel"> Cancel</button> <br>
+                <input type="checkbox" checked="checked"> Remember me   &nbsp;
+                Forgot <a href="#"> password? </a>   
+                <button>Sign Up </button>
+            </div>   
+        </form>
+     </center> 
+    </body>
+</html>
